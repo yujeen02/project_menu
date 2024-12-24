@@ -1,0 +1,475 @@
+body{
+    width: 1280px;
+    height: 1500px;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+/* vnd */
+/* 베트남 dong */
+.price0, .price2, .price3, .price20{
+    display: flex;
+    align-items: flex-end;
+}
+
+.price1{
+    display: flex;
+}
+
+.price5, .price10{
+    align-items: flex-end;
+}
+
+.dong{
+    font-size: xx-small;
+}
+
+/* 위 */
+.top{
+    display: flex;
+    height: 750px;
+    width: 1280px;
+}
+/* 위 왼쪽 */
+.t-left{
+    height: 750px;
+    color: white;
+    width: 512px;
+    background-color: rgb(58, 54, 54);
+    /*padding-top: 20px;
+    padding-left: 20px; */
+}
+.LSM{
+    font-size: x-large;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.ment{
+    display: flex;
+    padding-left: 40px;
+}
+
+.ment1{
+    font-size: small;
+}
+.ment2{
+    font-weight: bolder;
+    padding-left: 5px;
+    font-size: small;
+}
+
+/* 김치찌개 정식 */
+.kj{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.kjname{
+    font-size: larger;
+}
+.kj-price, .samApri, .samBpri{
+    font-size: larger;
+}
+/* 삼겹살 세트 */
+.ment3{
+    display: flex;
+    padding-left: 38px;
+}
+.ment4{
+    font-size: small;
+}
+.ment5{
+    font-weight: bolder;
+    padding-left: 5px;
+    font-size: small;
+}
+.kjname, .samAname, .samBname{
+    font-size: x-large;
+}
+
+.price0{
+    font-size: x-large;
+}
+
+.samA, .samB{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.samAex, .samBex{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+/* 위 왼쪽 아래 사진 정렬 */
+.bottomphoto{
+    display: flex;
+    justify-content: center;
+}
+
+.boxphoto{
+    display: flex;
+}
+
+.samphoto, .KJimg2, .DJimg2, .CJimg2{
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.samphoto{
+    position: absolute;
+    top: 560px;
+    left: 20px;
+}
+
+.DJimg2{
+    position: absolute;
+    top: 560px;
+    left: 180px;
+    z-index: 2;
+} 
+
+.KJimg2{
+    position: absolute;
+    top: 560px;
+    left: 260px;
+    z-index: 1;
+} 
+
+.CJimg2{
+    position: absolute;
+    top: 560px;
+    left: 350px;
+} 
+.plus{
+    position: absolute;
+    top: 610px;
+    left: 155px;
+}
+/* 위 오른쪽 */
+.t-right{
+    width: 768px;
+    height: 750px;
+}
+/* 위 오른쪽 위  */
+.tr-top{
+    padding-top: 60px;
+    padding-left: 40px;
+    height: 400px;
+    background-color: beige;
+}
+/* 제육볶음 세트 */
+.ment10{
+    display: flex;
+}
+.ment11{
+    font-size: small;
+}
+.ment12{
+    font-weight: bolder;
+    padding-left: 5px;
+    font-size: small;
+}
+.JaeA{
+    display: flex;
+    justify-content: space-between;
+}
+.JaeAname{
+    font-size: larger;
+}
+.JaeApri{
+    font-size: larger;
+}
+.price20{
+    padding-right: 350px;
+}
+/* .price2{
+    padding-right: 350px;
+} */
+.Jaepho{
+    display: flex;
+    height: 300px;
+    width: 400px;
+}
+.Jaepho1{
+    overflow: hidden;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}    
+
+.DJimg3, .KJimg3, .CJimg3{
+    overflow: hidden;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.Jaepho1{
+    position: absolute;
+    top: 210px;
+    right: 450px;
+}
+
+.DJimg3{
+    position: absolute;
+    top: 60px;
+    right:100px;
+    z-index: 2;
+} 
+
+.KJimg3{
+    position: absolute;
+    top: 180px;
+    right:100px;
+    z-index: 1;
+} 
+
+.CJimg3{
+    position: absolute;
+    top: 280px;
+    right:100px;
+}
+
+/* 위 오른쪽 아래  */
+.tr-bot{
+    height: 262px;
+    background-color: bisque;
+    padding-left: 40px;
+    padding-top: 30px;
+} 
+
+.ment16{
+    display: flex;
+}
+.ment18, .ment22, .ment26, .ment28{
+    font-weight: bolder;
+    padding-left: 5px;
+}
+.ment20{
+    display: flex;
+}
+
+.firstbox, .secondbox, .thirdbox{
+    display: flex;
+}
+.ment15{
+    padding-right:300px;
+}
+.JaeB{
+    width: 400px;
+}
+.JaeBname{
+    font-size: larger;
+}
+.price3{
+    position: absolute;
+    right: 10px;
+}
+.JaeBpri{
+    font-size: larger;
+
+}
+.JaeBex{
+    padding-right: 100px;
+}
+.Mpho1, .Mpho2{
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.orsym{
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.thirdbox{
+    position: absolute;
+    bottom: 760px;
+    right: 10px;
+}
+/* 아래 */
+.bottom{
+    display: flex;
+    height: 650px;
+    background-color: beige;
+} 
+.bar{
+    width: 390px;
+    height: 40px;
+    font-size: x-large;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left:70px
+}
+.barbom{
+    position: absolute;
+    padding-top: 20px;
+    left:70px;
+    font-size: small;
+    display: flex;
+}
+.barbom10{
+    position: absolute;
+    padding-top: 35px;
+    left:70px;
+    font-size: small;
+    display: flex;
+}
+.barbom1{
+    font-weight: bolder;
+}  
+.barbom3, .barbom6{
+    font-weight: bolder;
+    padding-left: 5px;
+}   
+
+/* 국/찌개류  */
+.KJimg, .DJimg, .CJimg, .DTJimg, .YJimg, .DDJimg, .KBTimg, .JQimg, .OQimg, .OBimg{ 
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    a{
+        width: 100%;
+        height: 100%;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.bottomphoto{
+    display: flex;
+}
+.kook{
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-right: 40px;
+}
+.kook1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.kook2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+.KJpri, .DJpri, .CJpri, .DTJpri1, .DTJpri2{
+    font-weight: bolder;
+}
+
+.YJpri, .DDJpri, .KBTpri, .JQpri, .OQpri, .OBpri{
+    font-weight: bolder;
+}
+
+.KJname, .DJname, .CJname, .JQname, .OQname, .OBname{
+    padding-left: 15px;
+}
+.price5{
+    display: flex;
+    padding-left: 15px;
+    font-size: large;
+}
+.price10{
+    display: flex;
+    font-size: large;
+}
+.YJname, .KBTname{
+    padding-left: 20px;
+}
+.DTJ{
+    display: flex;
+    padding-left: 30px;
+}
+.DTJname{
+    padding-top: 20px;
+}
+.DTJpri{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.DTJnamepri{
+    padding-left: 20px;
+}
+.sl{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.kook3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.b-left{
+    padding: 20px;
+    width: 640px;
+}
+
+.b-right{
+    padding-top: 102px;
+    padding-right: 40px;
+    width: 640px;
+}
+.KCQpri, .HSQpri, .CARpri, .BBBpri, .KBpri{
+    font-weight: bolder;
+}
+.RMpri, .DRSpri, .Mulpri, .BIBpri, .MANpri{
+    font-weight: bolder;
+}
+
+.QhR1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.BSt{
+    padding-top: 40px;
+}
+.BSt1{
+    display: flex;
+    justify-content: space-between;
+}
+.BSt-L, .BSt-R{
+    width: 250px;
+    justify-content: space-between;
+}
+.KCQ, .HSQ, .CAR, .BBB, .KB, .RM, .DRS, .Mul, .BIB, .MAN{
+    display: flex;
+    justify-content: space-between;
+}

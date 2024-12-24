@@ -1,0 +1,41 @@
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.left{
+    background-color: beige;
+    width: 500px;
+    height: 400px;
+}
+.right{
+    background-color: beige;
+    width: 600px;
+    font-size: large;
+}
+img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.name{
+    font-size: larger;
+    color: black;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.ex{
+    padding-top: 80px;
+    padding-left: 10px;
+}
+.infor{
+    padding-left: 10px;
+}
+
+.re{
+    padding-left: 10px;
+}
+
